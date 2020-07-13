@@ -6,8 +6,8 @@ class Dog
   attr_accessor name 
   
   initialize (name)
-    @name = name 
     @@all << self 
+     @name = name
   end 
   
 attr_accessor name 
