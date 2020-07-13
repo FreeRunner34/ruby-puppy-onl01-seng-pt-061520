@@ -10,6 +10,5 @@ class Dog
     @@all << self 
   end 
   
-attr_accessor name 
   
 end 
