@@ -23,3 +23,7 @@ class Dog
   end 
   
 end 
+
+fido = Dog.new("Fido")
+pluto = Dog.new("Pluto")
+maddy = Dog.new("Maddy")
