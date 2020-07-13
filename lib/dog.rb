@@ -3,11 +3,11 @@
 class Dog
   
   @@all = []
-  attr_accessor name 
+  attr_accessor :name 
   
-  initialize 
+  initialize (name)
+    @name = name
     @@all << self 
-    # @name = name
   end 
   
 attr_accessor name 
