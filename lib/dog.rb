@@ -5,7 +5,7 @@ class Dog
   @@all = []
   attr_accessor name 
   
-  initialize (name)
+  initialize 
     @@all << self 
      @name = name
   end 
